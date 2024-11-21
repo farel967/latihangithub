@@ -118,4 +118,15 @@
         </section>
     </div>
 </body>
+<script>
+    const tombolBukaUndangan = document.getElementById("btnBukaUndangan");
+    const isiUndangan = document.getElementById("isiUndangan");
+
+    console.log(tombolBukaUndangan, isiUndangan);
+
+    tombolBukaUndangan.addEventListener("click", function(){
+        // console.log("testing tombol di klik");
+        isiUndangan.classList.toggle("hidden")
+    })
+</script>
 </html>
